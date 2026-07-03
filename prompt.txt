@@ -1,0 +1,31 @@
+I want to create a simple AI chatbot using Python Flask and the Google Gemini API.
+
+The chatbot should have a clean chat interface where the user can type a question and get a response from Gemini. I want the frontend to be made using HTML, CSS, and JavaScript, and the backend should be in Python using Flask.
+
+Requirements:
+
+* Use Python Flask as the backend.
+* Use the Gemini API to generate responses.
+* Store the API key in a `.env` file instead of writing it directly in the code.
+* Create a `/chat` API endpoint that receives the user's message and returns the AI response.
+* Show both user messages and AI responses in the chat window.
+* Add a loading message while the AI is generating a response.
+* Allow pressing **Enter** to send a message and **Shift + Enter** to add a new line.
+* Make the UI simple, clean, responsive, and easy to use.
+* Include basic error handling if the API request fails.
+* Add comments in the code so it is easy to understand.
+* Keep the project organized using separate folders for templates and static files.
+* Make the project ready to upload to GitHub.
+* Also make it easy to deploy on Render later.
+
+Project structure should include:
+
+* app.py
+* templates/index.html
+* static/style.css
+* static/script.js
+* requirements.txt
+* .gitignore
+* .env.example
+
+The chatbot should answer general questions and programming-related questions using the Gemini API. The code should be simple, readable, and suitable for a college mini project.
